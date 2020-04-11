@@ -16,6 +16,16 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.title {
+  border: 1px solid black;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  width: 150px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  margin-top: 0;
+}
 .box-1 {
   float:center;
   background-color: orange;
@@ -61,7 +71,9 @@ box-shadow: 2px 2px orange;
 }
 
 
-
+.description {
+  padding: 45px 10px 5px 10px;
+}
 
 @media (min-width: 1012px) {
   .col-31 {
